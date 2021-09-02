@@ -28,8 +28,13 @@ function Header() {
             </div>
             {/* Right */}
             <div className="flex items-center justify-end text-gray-500 space-x-4">
-                <p>Become a host</p>
+                <p className="hidden md:inline cursor-pointer">Become a host</p>
                 <GlobeAltIcon className="h-6" />
+
+                <div className="flex border-2 rounded-full p-2 items-center space-x-2">
+                    <MenuIcon className="h-6" />
+                    <UserCircleIcon className="h-6" />
+                </div>
             </div>
         </div>
     )
