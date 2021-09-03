@@ -30,7 +30,10 @@ export default function Home({ exploreData }) {
               ))}
             </div>
         </section>
-        
+        <section>
+          <h2 className="text-4xl font-semibold py-8">Live Anywhere</h2>
+        </section>
+
         {/* Footer */}
       </main>
 
