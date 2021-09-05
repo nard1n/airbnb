@@ -48,6 +48,7 @@ export default function Home({ exploreData, cardsData }) {
           img="https://links.papareact.com/4cj"
           description="Wishlist curated by Airbnb."
           buttonText="Get Inspired"
+          title="The Greatest Outdoors"
         />
 
         {/* Footer */}
