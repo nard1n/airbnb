@@ -48,8 +48,8 @@ function Search({ searchResults }) {
                     
                 </section>
 
-                <section className="hidden lg:inline-flex min-w-[600px]">
-                    <Map />
+                <section className="hidden lg:inline-flex lg:min-w-[600px]">
+                    <Map searchResults={searchResults} />
                 </section>
             </main>
 
